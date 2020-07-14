@@ -16,6 +16,24 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script data-ad-client="ca-pub-2314259097584343" async
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#flip").hide();
+            $("#panel").slideToggle("slow");
+            $("#flip1").click(function () {
+                $("#panel").slideToggle(2000);
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("#flip3").hide();
+            $("#panel2").slideToggle("slow");
+            $("#flip2").click(function () {
+                $("#panel2").slideToggle(2000);
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -67,12 +85,10 @@
                     <h2 class="heading">About Me</h2>
                 </div>
                 <div class="col-md-8">
-                    <p>
-                        With a passion for programming, I have some skill set.
-                        As an upbeat, self-motivated team player
-                        with good communication, I envision an exciting future in the industry. Browse my site to
-                        see
-                        all the details.
+                    <p style="text-align: justify;">
+                        Proficient Software Development Intern adept at utilizing Python, JavaScript, HTML, and CSS to contribute to team projects and meet
+                        corporate objectives. Driven and proactive with a proven history of going above and beyond to contribute to team objectives. Consistently
+                        acknowledged for contributing to process optimization by automating tasks for increased efficiency.
                     </p>
                 </div>
             </div>
@@ -83,22 +99,28 @@
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
-            <div data-date="Dec 2019 – March 2020">
+            <div data-date="Dec 2019 – May 2020">
                 <h3>CareerLabs</h3>
-                <h4>Tech Intern</h4>
-                <p>
-                    With CareerLabs I worked on different Python projects:
-                    </br><br><b>RASA Framework:</b> Creating an education Chatbot Assistant for CareerLabs website.
-                    RASA
-                    platform is
-                    based on a Python programming language. In that, we are using Database MongoDB and API for OPT
-                    verification.
-                    </br><br><b>Text Extraction:</b> This project is based on converting and extracting text from
-                    different
-                    types of
-                    PDFs and Images using Python Libraries and for that output creating a CSV file.
-                    </br><br><b>Framework:</b> Using Flask web-framework I worked on <b>RESTful API-development</b> and
-                    web-development.
+                <h4>Software Engineer Intern</h4>
+                <p style="text-align: justify;">
+                    <ul>
+                        <li>Created interactive chatbot with the software development department using <b>Python</b> 
+                            programming language and RASA
+                            frameworks.</li>
+                        <li>Used development tools such as RASA, Flask, and Atlas on a regular basis.</li>
+                        <li>
+                            Produced clean, validation-ready code for project needs.
+                        </li>
+                        <li>Wrote all technical documentation for new software in development.</li>
+                        <li>Collaborated effectively with members of the software development team and personnel in
+                            other
+                            departments.</li>
+                        <li>Collaborated with other developers to identify and alleviate the number of bugs and errors
+                            in
+                            software.</li>
+                    </ul>
+
+
                 </p>
             </div>
 
@@ -138,7 +160,7 @@
                     <!-- End .project-image -->
                     <div class="project-info">
                         <h3>Costomer Service Portal Automation </h3>
-                        <p>
+                        <p style="text-align: justify;">
                             As costomer service automation, at Careerlabs we built a Careerguru RASA CHATBOT.
                             That helps students to predicted their career track, domain and so on.
                             In this chatbot, I used the <b>MongoDB database</b> and <b>Python programming language</b> .
@@ -177,52 +199,78 @@
                     <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img width="170px" height="200px" src="images/confer.PNG" />
+                <button id="flip3">More</button>
+                <button class="btn btn-info" id="flip2">More</button>
+                <div id="panel2">
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                            <img width="170px" height="200px" src="images/confer.PNG" />
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>ConferSpace</h3>
+                            <p>
+                                The places under which members can start their discussions or posts. Logically
+                                conferSpace
+                                is organized into a set of generic topics driven and updated by a group known as members
+                                and
+                                governed by a group known as moderators. Worked as part of the back-end development as
+                                well
+                                as front-end in projects using PHP and MySQL database.</p>
+                            <button class="btn btn-link"><a href="https://github.com/ankitsinghmyself/Confer_space"
+                                    target="_blank">View
+                                    Source Code</a></button>
+                            <button class="btn btn-link"><a href="https://youtu.be/dHFC48ubNoA"
+                                    target="_blank">Demo</a></button>
+                        </div>
+                        <!-- End .project-info -->
                     </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>ConferSpace</h3>
-                        <p>
-                            The places under which members can start their discussions or posts. Logically
-                            conferSpace
-                            is organized into a set of generic topics driven and updated by a group known as members
-                            and
-                            governed by a group known as moderators. Worked as part of the back-end development as
-                            well
-                            as front-end in projects using PHP and MySQL database.</p>
-                        <button class="btn btn-link"><a href="https://github.com/ankitsinghmyself/Confer_space"
-                                target="_blank">View
-                                Source Code</a></button>
-                        <button class="btn btn-link"><a href="https://youtu.be/dHFC48ubNoA"
-                                target="_blank">Demo</a></button>
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                            <img width="170px" height="200px" src="images/data-searching.png" />
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>Data Searhing | Sorting | Downloading App </h3>
+                            <p>
+                                This Project is a Tkinter GUI Based Application made with the python programming
+                                language.
+                                This application made to search student details from a large number of datasets.
+                                The app is able to Sort based on different types of parameters, Searching and
+                                downloading.
+                            </p>
+                            <button class="btn btn-link"><a
+                                    href="https://github.com/ankitsinghmyself/Python_data_filltering"
+                                    target="_blank">View
+                                    Source
+                                    Code</a></button>
+                            <button class="btn btn-link"><a href="https://youtu.be/FJQB4P94Eb8"
+                                    target="_blank">Demo</a></button>
+                        </div>
+                        <!-- End .project-info -->
                     </div>
-                    <!-- End .project-info -->
+                    <!-- End .project -->
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                            <img width="220px" height="200px" src="images/ttt.PNG" />
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>Tic Tac Toe</h3>
+                            <p>
+                                This is a GUI based game written in the python programming language using Flask. I
+                                worked on
+                                software issues by
+                                reviewing/debugging code and devising fixes and workarounds.</p>
+                            <button class="btn btn-link"><a href="https://github.com/ankitsinghmyself/tic-tac-toe"
+                                    target="_blank">View
+                                    Source Code</a></button>
+                            <button class="btn btn-link"><a href="https://ttt-game-python.herokuapp.com/"
+                                    target="_blank">Demo</a></button>
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
                 </div>
-                <!-- End .project -->
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img width="220px" height="200px" src="images/ttt.PNG" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Tic Tac Toe</h3>
-                        <p>
-                            This is a GUI based game written in the python programming language using Flask. I worked on
-                            software issues by
-                            reviewing/debugging code and devising fixes and workarounds.</p>
-                        <button class="btn btn-link"><a href="https://github.com/ankitsinghmyself/tic-tac-toe"
-                                target="_blank">View
-                                Source Code</a></button>
-                        <button class="btn btn-link"><a href="https://ttt-game-python.herokuapp.com/"
-                                target="_blank">Demo</a></button>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <p><button class="btn btn-link" style="text-align: right;"><a href="project.html"
-                    target="_blank">All Projects</a></button></p>
             </div>
         </div>
     </div>
@@ -249,41 +297,47 @@
                     <p> Percentage: 74.12 </p>
                 </div>
                 <!-- End .project shadow-large -->
+                <button id="flip">More</button>
+                <button class="btn btn-info" id="flip1">More</button>
+                <div id="panel">
+                    <div class="project shadow-large">
+                        <h3>Makhanlal Chaturvedi National University of Journalism and Communication</h3>
+                        <span class="education-date">Aug 2013 - June 2014</span>
+                        <h5>College: SRIT Education, Rajakhedi, Sagar, MP ,India</h5>
+                        <h5>Diploma in Computer Application (DCA)</h5>
+                        <p> Percentage: 71 <br><br></p>
+                    </div>
+                    <!-- End .project shadow-large -->
 
-                <div class="project shadow-large">
-                    <h3>Makhanlal Chaturvedi National University of Journalism and Communication</h3>
-                    <span class="education-date">Aug 2013 - June 2014</span>
-                    <h5>College: SRIT Education, Rajakhedi, Sagar, MP ,India</h5>
-                    <h5>Diploma in Computer Application (DCA)</h5>
-                    <p> Percentage: 71 <br><br></p>
+                    <div class="project shadow-large">
+                        <h3>National Institute of Electronics & Information Technology (NIELIT/ DOEACC)</h3>
+                        <span class="education-date">2013</span>
+                        <h5>College: Society for Computer Technology and Education, Fatehpur, UP ,India</h5>
+                        <h5>Course on Computer Concepts (CCC)</h5>
+
+                    </div>
+                    <!-- End .project shadow-large -->
+
+                    <div class="project shadow-large">
+                        <h3>State Board</h3>
+                        <span class="education-date">2012</span>
+                        <h5>School: Sheth H.C. Higher Secondary School Raja Khedi, Sagar, MP ,India</h5>
+                        <h5>Intermediate</h5>
+                        <p> Percentage: 70 <br><br></p>
+                    </div>
+                    <!-- End .project shadow-large -->
+
+                    <div class="project shadow-large">
+                        <h3>State Board</h3>
+                        <span class="education-date">2009</span>
+                        <h5>School: Sheth H.C. Higher Secondary School Raja Khedi, Sagar, MP ,India</h5>
+                        <h5>High School</h5>
+
+                    </div>
                 </div>
-                <!-- End .project shadow-large -->
 
-                <div class="project shadow-large">
-                    <h3>National Institute of Electronics & Information Technology (NIELIT/ DOEACC)</h3>
-                    <span class="education-date">2013</span>
-                    <h5>College: Society for Computer Technology and Education, Fatehpur, UP ,India</h5>
-                    <h5>Course on Computer Concepts (CCC)</h5>
 
-                </div>
-                <!-- End .project shadow-large -->
 
-                <div class="project shadow-large">
-                    <h3>State Board</h3>
-                    <span class="education-date">2012</span>
-                    <h5>School: Sheth H.C. Higher Secondary School Raja Khedi, Sagar, MP ,India</h5>
-                    <h5>Intermediate</h5>
-                    <p> Percentage: 70 <br><br></p>
-                </div>
-                <!-- End .project shadow-large -->
-
-                <div class="project shadow-large">
-                    <h3>State Board</h3>
-                    <span class="education-date">2009</span>
-                    <h5>School: Sheth H.C. Higher Secondary School Raja Khedi, Sagar, MP ,India</h5>
-                    <h5>High School</h5>
-
-                </div>
             </div>
         </div>
     </div>
@@ -294,8 +348,8 @@
         <div class="container">
             <div class="row">
                 <div class="project shadow-large">
-                    <div class="project-image">
-                        <img width="300px" height="250px" src="images\award.png" />
+                    <div class="project-image" > <a href="images\ankit.JPG" target="_blank" rel="noopener noreferrer">
+                        <img width="300px" height="250px" src="images\ankit.JPG" /></a>
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
@@ -467,6 +521,9 @@
 
     <div id="contact">
         <h2>Get in Touch</h2>
+        <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical"
+            data-theme="dark" data-vanity="ankitsinghmyself"><a class="LI-simple-link"
+                href='https://in.linkedin.com/in/ankitsinghmyself?trk=profile-badge'>Ankit Singh</a></div>
         <div id="contact-form">
             <form method="POST" action="mailto:ankitsinghmyself@gmail.com">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
