@@ -199,8 +199,7 @@
                     <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
-                <button id="flip3">More</button>
-                <button class="btn btn-info" id="flip2">More</button>
+                
                 <div id="panel2">
                     <div class="project shadow-large">
                         <div class="project-image">
@@ -270,7 +269,22 @@
                         </div>
                         <!-- End .project-info -->
                     </div>
-                </div>
+                </div><button id="flip3">More</button>
+                <button class="btn btn-info" onclick="myFunction()" id="flip2">More</button>
+                <script>
+
+                    function myFunction() {
+                        var change = document.getElementById("flip2");
+                        if (change.innerHTML == "More")
+                        {
+                            change.innerHTML = "Hide";
+                        }
+                        else {
+                            change.innerHTML = "More";
+                        }
+                    }
+        
+                </script>
             </div>
         </div>
     </div>
@@ -297,8 +311,7 @@
                     <p> Percentage: 74.12 </p>
                 </div>
                 <!-- End .project shadow-large -->
-                <button id="flip">More</button>
-                <button class="btn btn-info" id="flip1">More</button>
+                
                 <div id="panel">
                     <div class="project shadow-large">
                         <h3>Makhanlal Chaturvedi National University of Journalism and Communication</h3>
@@ -335,8 +348,22 @@
 
                     </div>
                 </div>
+                <button id="flip">More</button>
+                <button class="btn btn-info" onclick="myFunction1()" id="flip1">More</button>
+                <script>
 
-
+                    function myFunction1() {
+                        var change = document.getElementById("flip1");
+                        if (change.innerHTML == "More")
+                        {
+                            change.innerHTML = "Hide";
+                        }
+                        else {
+                            change.innerHTML = "More";
+                        }
+                    }
+        
+                </script>
 
             </div>
         </div>
