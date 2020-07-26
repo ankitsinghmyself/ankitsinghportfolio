@@ -36,7 +36,7 @@
     </script>
     <style>
         @-webkit-keyframes test{
-    0%{
+            0%{
         background-image: url('https://www.dropbox.com/s/du3gawwiet7rgur/openchat.jpeg?raw=1');
        
     }
@@ -46,20 +46,24 @@
     100%{
         background-image: url('https://www.dropbox.com/s/i9rr8cm6xq5a6ki/openchat_logout.jpeg?raw=1');
     }
-    
 }
 
 div#transition{
-    width: 250px;
-    height: 200px;
+    width: 350px;
+    height: 250px;
     float: left;
     background-size: contain;
-    background-position: 30% 30%;
+    background-position: 50% 50%;
     background-repeat: no-repeat;
     -webkit-animation: test 12s infinite;
             animation: test 12s infinite;
 }
 
+#steps{
+    -webkit-animation-timing-function: steps(1, end);
+            animation-timing-function: steps(1, end);
+}
+       
     </style>
 
 </head>
@@ -197,7 +201,7 @@ div#transition{
         <div class="container">
             <div class="row">
                 <div class="project shadow-large">
-                    <div id="transition" class="project-image">
+                    <div id="steps" class="project-image">
                         
                     </div>
                     <!-- End .project-image -->
