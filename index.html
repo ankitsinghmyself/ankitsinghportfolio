@@ -49,20 +49,16 @@
 }
 
 div#transition{
-   
+    width: 170px;
+    height: 200px;
     float: left;
     background-size: contain;
-    background-position: 100% 100%;
+    background-position: 30% 30%;
     background-repeat: no-repeat;
     -webkit-animation: test 12s infinite;
             animation: test 12s infinite;
 }
-div#steps{
-    width: 170px;
-    height: 200px;
-    -webkit-animation-timing-function: steps(1, end);
-            animation-timing-function: steps(1, end);
-}
+
     </style>
 
 </head>
@@ -200,7 +196,7 @@ div#steps{
         <div class="container">
             <div class="row">
                 <div class="project shadow-large">
-                    <div id="steps" class="project-image">
+                    <div id="transition" class="project-image">
                         
                     </div>
                     <!-- End .project-image -->
