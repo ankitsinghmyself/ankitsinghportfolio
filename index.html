@@ -35,35 +35,33 @@
         });
     </script>
     <style>
-        @-webkit-keyframes test{
-            0%{
-        background-image: url('https://www.dropbox.com/s/du3gawwiet7rgur/openchat.jpeg?raw=1');
-       
-    }
-    60%{
-        background-image: url('https://www.dropbox.com/s/3pl9jsxqidrvcji/openchat_room.jpeg?raw=1');
-    }
-    100%{
-        background-image: url('https://www.dropbox.com/s/i9rr8cm6xq5a6ki/openchat_logout.jpeg?raw=1');
-    }
-}
+        @-webkit-keyframes test {
+            0% {
+                background-image: url('https://www.dropbox.com/s/du3gawwiet7rgur/openchat.jpeg?raw=1');
 
-div#transition{
-    width: 350px;
-    height: 250px;
-    float: left;
-    background-size: contain;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    -webkit-animation: test 12s infinite;
+            }
+
+            60% {
+                background-image: url('https://www.dropbox.com/s/3pl9jsxqidrvcji/openchat_room.jpeg?raw=1');
+            }
+
+            100% {
+                background-image: url('https://www.dropbox.com/s/i9rr8cm6xq5a6ki/openchat_logout.jpeg?raw=1');
+            }
+        }
+
+        div#transition {
+            width: 350px;
+            height: 250px;
+            float: left;
+            background-size: contain;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            -webkit-animation: test 12s infinite;
             animation: test 12s infinite;
-}
-
-#steps{
-    -webkit-animation-timing-function: steps(1, end);
+            -webkit-animation-timing-function: steps(1, end);
             animation-timing-function: steps(1, end);
-}
-       
+        }
     </style>
 
 </head>
@@ -201,14 +199,15 @@ div#transition{
         <div class="container">
             <div class="row">
                 <div class="project shadow-large">
-                    <div id="steps" class="project-image">
-                        
+                    <div id="transition" class="project-image">
+
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
                         <h3>Open Chat</h3>
                         <p style="text-align: justify;">
-                            This is a chat application, implemented using Flask-SocketIO with both the database (PostgreSQL) and the app deployed in Heroku. 
+                            This is a chat application, implemented using Flask-SocketIO with both the database
+                            (PostgreSQL) and the app deployed in Heroku.
                             It also has user registration and authentication functionalities.
                         </p>
                         <button class="btn btn-link"><a href="https://github.com/ankitsinghmyself/openchat-app"
@@ -338,17 +337,14 @@ div#transition{
                 </div><button id="flip3">More</button>
                 <button class="btn btn-info" onclick="myFunction()" id="flip2">More</button>
                 <script>
-
                     function myFunction() {
                         var change = document.getElementById("flip2");
                         if (change.innerHTML == "More") {
                             change.innerHTML = "Hide";
-                        }
-                        else {
+                        } else {
                             change.innerHTML = "More";
                         }
                     }
-
                 </script>
             </div>
         </div>
@@ -379,7 +375,8 @@ div#transition{
 
                 <div id="panel">
                     <div class="project shadow-large">
-                        <h3> <a href="http://www.mcu.ac.in/"> Makhanlal Chaturvedi National University of Journalism and Communication</a></h3>
+                        <h3> <a href="http://www.mcu.ac.in/"> Makhanlal Chaturvedi National University of Journalism and
+                                Communication</a></h3>
                         <span class="education-date">Aug 2013 - June 2014</span>
                         <h5>College: SRIT Education, Rajakhedi, Sagar, MP ,India</h5>
                         <h5>Diploma in Computer Application (DCA)</h5>
@@ -388,7 +385,8 @@ div#transition{
                     <!-- End .project shadow-large -->
 
                     <div class="project shadow-large">
-                        <h3> <a href="http://nielit.gov.in/"> National Institute of Electronics & Information Technology (NIELIT/ DOEACC)</a></h3>
+                        <h3> <a href="http://nielit.gov.in/"> National Institute of Electronics & Information Technology
+                                (NIELIT/ DOEACC)</a></h3>
                         <span class="education-date">2013</span>
                         <h5>College: Society for Computer Technology and Education, Fatehpur, UP ,India</h5>
                         <h5>Course on Computer Concepts (CCC)</h5>
@@ -416,17 +414,14 @@ div#transition{
                 <button id="flip">More</button>
                 <button class="btn btn-info" onclick="myFunction1()" id="flip1">More</button>
                 <script>
-
                     function myFunction1() {
                         var change = document.getElementById("flip1");
                         if (change.innerHTML == "More") {
                             change.innerHTML = "Hide";
-                        }
-                        else {
+                        } else {
                             change.innerHTML = "More";
                         }
                     }
-
                 </script>
 
             </div>
